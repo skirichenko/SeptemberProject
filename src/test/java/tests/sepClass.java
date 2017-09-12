@@ -15,7 +15,6 @@ public class sepClass {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://novaposhta.ua/delivery");
 
-
         String expectedResult = "Разом: 65.00 грн *";
 
 
