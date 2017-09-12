@@ -2,9 +2,7 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,7 +14,7 @@ public class sepClass {
     public void testName() throws Exception {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://novaposhta.ua/delivery");
-        //driver.manage().window().maximize();
+
 
         String expectedResult = "Разом: 65.00 грн *";
 
